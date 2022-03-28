@@ -11,7 +11,6 @@
   inputs.src-nimTiingo-main.ref   = "refs/heads/main";
   inputs.src-nimTiingo-main.owner = "rolandgg";
   inputs.src-nimTiingo-main.repo  = "nimTiingo";
-  inputs.src-nimTiingo-main.dir   = "";
   inputs.src-nimTiingo-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
